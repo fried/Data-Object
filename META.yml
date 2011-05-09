@@ -13,7 +13,7 @@ license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-name: Class-Data-Easy
+name: Data-Object
 no_index:
   directory:
     - inc
@@ -22,5 +22,5 @@ requires:
   Moose: 0.90
 resources:
   license: http://dev.perl.org/licenses/
-  repository: http://github.com/fried/Class-Data-Easy
-version: 0.001
+  repository: http://github.com/fried/Data-Object
+version: 0.002

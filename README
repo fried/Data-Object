@@ -1,8 +1,10 @@
-Class-Data-Easy version 0.001
+Data-Object version 0.002
 ============================
 
-This module attempts to provide class style accessors for perl data structures. 
+This module attempts to provide class style accessors for perl data structures.
 In an attempt to make it easier to traverse said data structures in an OO way.
+
+Currently only Array and Hash structures are handled in any way, all others are returned as is.
 
 INSTALLATION
 

@@ -1,4 +1,8 @@
-Revision history for Perl extension Class::Data::Easy.
+Revision history for Perl extension Data::Object.
 
 0.001  Thu Apr 28 10:29:18 2011
-	- original version; created by Jason Fried       
+	- original version; created by [fried]
+
+0.002  Mon May 09 13:23:00 2011
+        - Module is now in a working state [fried]
+        - Renamed to Data::Object
