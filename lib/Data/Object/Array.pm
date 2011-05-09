@@ -30,7 +30,6 @@ Overload raw so we can have some native array methods
 
 has '+raw' => (
 	        traits => ['Array'],
-		is => 'ro',
 		handles => {
 		    count => 'count',
 		    is_empty => 'is_empty',

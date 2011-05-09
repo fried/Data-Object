@@ -6,3 +6,4 @@ Revision history for Perl extension Data::Object.
 0.002  Mon May 09 13:23:00 2011
         - Module is now in a working state [fried]
         - Renamed to Data::Object
+	- Added Simpsons Example as a test 

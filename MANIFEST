@@ -7,12 +7,14 @@ inc/Module/Install/Makefile.pm
 inc/Module/Install/Metadata.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
-lib/Class/Data/Easy.pm
+lib/Data/Object.pm
+lib/Data/Object/Array.pm
+lib/Data/Object/Base.pm
+lib/Data/Object/Hash.pm
 Makefile.PL
-MANIFEST
+MANIFEST			This list of files
 META.yml
 README
 t/01-basic.t
-t/Class-Data-Easy.t
 t/pod-coverage.t
 t/pod.t

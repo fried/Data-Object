@@ -34,7 +34,7 @@ This module is a base class for common methods used by Data::Object sub classes
 
 =cut
 
-    has 'type' => ( is => 'ro', isa => 'Str', default => sub { Scalar::Util::reftype ( $_[0]->raw ) }, lazy => 1 );
+    has 'type' => ( is => 'ro', isa => 'Maybe[Str]', default => sub { Scalar::Util::reftype ( $_[0]->raw ) }, lazy => 1 );
 
 =item blessed
 
@@ -43,7 +43,7 @@ This module is a base class for common methods used by Data::Object sub classes
 
 =cut
 
-    has 'blessed' => ( is => 'ro', isa => 'Str', default => sub { blessed ( $_[0]->raw ) }, lazy => 1 );
+    has 'blessed' => ( is => 'ro', isa => 'Maybe[Str]', default => sub { blessed ( $_[0]->raw ) }, lazy => 1 );
     has 'children' => ( is => 'ro', isa => 'HashRef', default => sub { {} }, reader => '_children', clearer => 'cleanup'); #Default Empty
 
 =back

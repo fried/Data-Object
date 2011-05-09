@@ -30,7 +30,6 @@ Overload raw so we can have some native hash methods
 
 has '+raw' => (
 	        traits => ['Hash'],
-		is => 'ro',
 		handles => {
 		    is_empty => 'is_empty',
 		    _delete => 'delete',
