@@ -2,6 +2,8 @@ package Data::Object::Hash;
 use Moose;
 use namespace::autoclean;
 
+our $VERSION = '0.003';
+
 extends 'Data::Object::Base';
 
 use strict;
