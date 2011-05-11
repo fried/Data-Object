@@ -7,6 +7,8 @@ author 'Jason Fried <fried@cpan.org>';
 version_from 'lib/Data/Object.pm';
 license 'perl';
 requires 'Moose' => '0.90';
+requires 'namespace::autoclean' => '0';
+requires 'Scalar::Util' => '1.20';
 test_requires 'Test::More' => '0.47';
 repository 'http://github.com/fried/Data-Object';
 WriteAll;

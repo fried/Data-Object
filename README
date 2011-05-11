@@ -1,4 +1,4 @@
-Data-Object version 0.003
+Data-Object version 0.004
 ============================
 
 This module attempts to provide class style accessors for perl data structures.

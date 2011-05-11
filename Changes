@@ -9,4 +9,8 @@ Revision history for Perl extension Data::Object.
 	- Added Simpsons Example as a test
 
 0.003  Tue May 10 09:48:00 2011
-	- Added VERSION to all modules [fried] 
+	- Added VERSION to all modules [fried]
+
+0.004  Wed May 11 10:03:00 2011
+	- Updated Build Requirements [fried]
+	- This should fix perl automated tests 
