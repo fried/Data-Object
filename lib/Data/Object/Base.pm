@@ -2,7 +2,7 @@ package Data::Object::Base;
 use Moose;
 use namespace::autoclean;
 
-our $VERSION = '0.005';
+our $VERSION = '0.006';
 
 use strict;
 use warnings;

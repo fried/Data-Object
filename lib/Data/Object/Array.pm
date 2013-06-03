@@ -2,7 +2,7 @@ package Data::Object::Array;
 use Moose;
 use namespace::autoclean;
 
-our $VERSION = '0.005';
+our $VERSION = '0.006';
 
 extends 'Data::Object::Base';
 
@@ -158,7 +158,7 @@ sub AUTOLOAD {
     }
 
     #Otherwise lets pass this to the super class
-    my $super = "SUPER::$item";
+    my $super = "Data::Object::Base::$item";
     $self->$super( @_ );
 }
 

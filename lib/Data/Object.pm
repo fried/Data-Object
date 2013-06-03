@@ -5,7 +5,7 @@ use namespace::autoclean;
 use strict;
 use warnings;
 
-our $VERSION = '0.005';
+our $VERSION = '0.006';
 
 use Carp;
 use Scalar::Util ();
