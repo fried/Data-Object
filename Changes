@@ -14,3 +14,7 @@ Revision history for Perl extension Data::Object.
 0.004  Wed May 11 10:03:00 2011
 	- Updated Build Requirements [fried]
 	- This should fix perl automated tests 
+
+0.005  Sun Jun 2 21:10:00 2013
+	- Changed from SUPER:: to use the base module directly
+	- Not sure why SUPER:: stopped working in perl 5.17

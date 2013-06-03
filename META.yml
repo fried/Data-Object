@@ -25,4 +25,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/fried/Data-Object
-version: 0.004
+version: 0.005

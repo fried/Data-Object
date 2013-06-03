@@ -2,7 +2,7 @@ package Data::Object::Array;
 use Moose;
 use namespace::autoclean;
 
-our $VERSION = '0.004';
+our $VERSION = '0.005';
 
 extends 'Data::Object::Base';
 

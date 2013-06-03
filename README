@@ -1,4 +1,4 @@
-Data-Object version 0.004
+Data-Object version 0.005
 ============================
 
 This module attempts to provide class style accessors for perl data structures.
@@ -23,7 +23,7 @@ This module requires these other modules and libraries:
 
 COPYRIGHT & LICENCE
 
-Copyright (C) 2011 by Jason Fried. All Rights Reserved.
+Copyright (C) 2013 by Jason Fried. All Rights Reserved.
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

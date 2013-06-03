@@ -2,7 +2,7 @@ package Data::Object::Hash;
 use Moose;
 use namespace::autoclean;
 
-our $VERSION = '0.004';
+our $VERSION = '0.005';
 
 extends 'Data::Object::Base';
 
@@ -99,8 +99,8 @@ sub AUTOLOAD {
     }
 
     #Otherwise lets pass this to the super class
-    my $super = "SUPER::$item";
-    $self->$super( @_ );
+    my $super = "Data::Object::Base::$item";
+    $self->$super(@_);
 }
 
 =back
